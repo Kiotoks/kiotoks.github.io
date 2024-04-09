@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <link rel="icon" type="image/x-icon" href="https://static-00.iconduck.com/assets.00/turtle-emoji-2048x1634-f09f55hs.png">
+    <title>Nicolas Garcia</title>
+
+</head>
+<body style="background-color: black; display: flex; flex-direction: column; justify-content: center; align-items: center; height: 100vh; font-family: 'Courier New', Courier, monospace;">
+    <header>
+        <nav class="navbar fixed-top navbar-expand-lg navbar-dark " style="min-height: 2vh;">
+          <a class="navbar-brand" href="/">🐢</a>
+          <button class="navbar-toggler"  type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon" ></span>
+          </button>
+        
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                <a class="nav-link text-white" href="contacto.html">Contacto</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="proyectos.html">Proyectos</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+    </header>      
+    <svg width="50em" height="50em" viewBox="0 0 585 475" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <style>
+          @keyframes colorChange1 {
+            0%, 100% { fill: var(--color3); }
+            50% { fill: var(--color4); }
+          }
+        </style>
+        <path d="M59.6878 70.4072C2.64247 112.7 -16.8108 220.14 15.7866 303.15C34.714 338.439 85.6079 417.473 137.764 451.308C202.958 493.601 346.492 482.305 380.666 392.728C414.841 303.151 608.848 251.138 582.56 142.122C556.271 33.1053 429.562 31.2664 323.621 6.83623C217.68 -17.5939 116.733 28.1141 59.6878 70.4072Z" fill="#B071FF"/>
+    </svg>
+    <h1 style="position: absolute; color:white; top: 25vh; font-size: 5em;">Proyectos</h1>
+    <div class="cardholder">
+        <div class="card">
+            <img src="horarios.png" alt="">
+            <div class="card__content">
+            <p class="card__title">HorariosApp</p>
+            <p class="card__description"> Calendario con diseño minimalista con el afan de mantener un seguimiento de horas, entregas y fechas importantes de un grupo estudiantil</p>
+            <a href="https://horariosapp.onrender.com"><button class="card__button">Live Demo</button></a>
+            <a href="https://github.com/Kiotoks/HorariosApp"><button class="card__button secondary">Source Code</button></a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="pcmage.png" alt="">
+            <div class="card__content">
+            <p class="card__title">PCMage</p>
+            <p style="color: rgb(59, 59, 59);" class="card__description">Generacion de computadoras utilizando base de datos de componentes e inteligencia artificial para recomendaciones. Base de datos de componentes actualizada con API de MercadoLibre.</p>
+            <a href="https://pcmage.onrender.com"><button class="card__button">Live Demo</button></a>
+            <a href="https://github.com/Kiotoks/PcMage"><button style="color: white; border: 1px solid white;" class="card__button secondary">Source Code</button></a>
+            
+            </div>
+        </div>   
+        <div class="card">
+            <img src="levare.jpg" alt="">
+            <div class="card__content">
+            <p class="card__title">Levare</p>
+            <p style="color: rgb(59, 59, 59);" class="card__description">Sistema de gestion para colegio secundario. Profesores registrados puede cargar datos de estudiantes en una sola plataforma de manera sencilla. Administrador puede gestionar permisos y controlar carga de datos</p>
+            <button class="card__button secondary">Source Code</button>
+            </div>
+        </div>  
+    </div>
+    <h3 style="position: absolute; color:darkgrey; bottom: 25vh; font-style: italic;">Las muestras en vivo pueden tardar de 1 a 5 minutos en cargar</h3>
+     
+</body>
+</html>
