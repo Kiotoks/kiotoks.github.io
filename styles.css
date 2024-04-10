@@ -10,6 +10,8 @@
 svg {
     filter: blur(100px);
     position: absolute;
+    overflow: hidden;
+    max-width: 100%;
 }
 
 path {
@@ -93,6 +95,7 @@ path {
     margin: 1em;
     @media only screen and (max-width: 80vh) { 
         width: 70vw;
+        aspect-ratio: 16/11;
     }
 }
 
